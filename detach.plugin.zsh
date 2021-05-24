@@ -1,6 +1,6 @@
 function detach()
 {
-  setsid "$@" &>/dev/null
+    setsid "$@" &>/dev/null
 }
 
 function dt()
